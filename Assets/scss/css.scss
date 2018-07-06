@@ -74,6 +74,7 @@ body {
     background-color: white;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
+    z-index: 50;
     
     .head_before{
         position: absolute;
@@ -128,6 +129,24 @@ body {
     height: 70px;
 }
 /********************************************************/
+
+
+
+.container{
+    margin-top: 20px;
+    
+    .materialboxed{
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.page-footer{
+    color: black !important;
+    background-color: white !important;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 15px !important;
+}
 
 /*UTILITIES*/
 .dn{

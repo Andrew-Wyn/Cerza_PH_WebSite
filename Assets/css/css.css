@@ -60,7 +60,8 @@ body {
   height: 70px;
   background-color: white;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-  position: relative; }
+  position: relative;
+  z-index: 50; }
   .header .head_before {
     position: absolute;
     top: 0px;
@@ -102,6 +103,18 @@ body {
   height: 70px; }
 
 /********************************************************/
+.container {
+  margin-top: 20px; }
+  .container .materialboxed {
+    width: 100%;
+    margin: 10px; }
+
+.page-footer {
+  color: black !important;
+  background-color: white !important;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 15px !important; }
+
 /*UTILITIES*/
 .dn {
   display: none; }

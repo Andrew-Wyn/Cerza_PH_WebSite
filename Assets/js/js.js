@@ -1,6 +1,7 @@
 $(document).ready(function(){
     /*ACTIVATOR FOR FRAMEWORK*/
     $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
     /********************************************************/
     
     $(window).scroll(function(){
