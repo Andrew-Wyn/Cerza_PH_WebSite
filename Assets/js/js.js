@@ -1,6 +1,6 @@
 $(document).ready(function(){
     /*ACTIVATOR FOR FRAMEWORK*/
-    //some code!!
+    $('.sidenav').sidenav();
     /********************************************************/
     
     $(window).scroll(function(){

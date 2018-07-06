@@ -3,10 +3,28 @@
         
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="Assets/css/materialize.min.css" rel="stylesheet">
         <link rel="stylesheet" media="screen" href="Assets/css/css.css" type="text/css" />
         <title></title>
     </head>
     <body>
+        
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="https://images.pexels.com/photos/808510/pexels-photo-808510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+              </div>
+              <a href="#user"><img class="circle" src="Assets/img/icon.jpg"></a>
+              <a href="#name"><span class="white-text name">Matteo Cerza</span></a>
+              <a href="#email"><span class="white-text email">matteocerza@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>        
+        
         <div class='main'>
             <div class="title">MATTEO CERZA photos</div>
             <ul>
@@ -19,17 +37,20 @@
         </div>
         <div class="header">
             <div class="head_before">
-                <i class="material-icons left_obj" style="float: left">camera</i>
-                <i class="material-icons right_obj" style="float: right">menu</i>
+                <i class="material-icons left_obj">camera</i>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons right_obj">menu</i></a>
             </div>
             <div class="head_after op0">
                 <div class="left_obj">
                     MATTEO CERZA photos
                 </div>
-                <i class="material-icons right_obj" style="float: right">menu</i>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons right_obj">menu</i></a>
             </div>
         </div>
         <div class="compensatore dn"></div>
+        <div class="container">
+        
+        </div>
         miao<br>
         miao<br>
         miao<br>
@@ -127,6 +148,7 @@
         miao<br>
         miao<br>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="Assets/js/materialize.min.js"></script>
         <script src="Assets/js/js.js"></script>
     </body>
 <html>
