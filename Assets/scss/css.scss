@@ -1,0 +1,148 @@
+/*UNIVERSAL TAG*/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/********************************************************/
+
+/*BLOCCO HEADER*/
+.main {
+	height: auto;
+	background: #333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    .title {
+        position: absolute;
+        z-index: 50;
+        font-size: 50px;
+        color: grey;
+        font-style: oblique;
+        display: inline-block;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+    
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		li {
+			flex: 1 1 40rem;
+			height: 30rem;
+			overflow: hidden;
+			background: #000;
+			object-fit: cover;
+
+			&:hover .img {
+				filter: grayscale(0);
+				transform: scale(1);
+				opacity: 1;
+			}
+
+			.img {
+				height: 100%;
+				width: 100%;
+				transform: scale(1.1);
+				filter: grayscale(30%);
+				opacity: 0.8;
+				object-fit: cover;
+				transition: all 0.3s ease-in-out;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+    .head_before{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in;
+        
+        .left_obj{
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+            left: 10px;
+            font-size: 24px;
+        }
+        
+        .right_obj{
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+            right: 10px;
+        }
+    }
+
+    .head_after{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in;
+        
+        .left_obj{
+            position: absolute;
+            top: 50%;
+            margin-top: -14px;
+            left: 10px;
+            font-size: 24px;
+        }
+        
+        .right_obj{
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+            right: 10px;
+        }
+    }
+}
+
+.compensatore{
+    height: 70px;
+}
+/********************************************************/
+
+/*UTILITIES*/
+.dn{
+    display: none;
+}
+
+.pos_fix{
+    position: fixed;
+    top: 0px;
+}
+
+.op0{
+    opacity: 0;
+}
+
+.op1{
+    opacity: 1;
+}
+/********************************************************/
+
