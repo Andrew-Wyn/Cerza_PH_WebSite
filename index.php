@@ -62,46 +62,46 @@ header('Location: ');
         <div class="container">
             <div class="row">
                 <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <div>
+                        <img class="materialboxed" width="650" src="Assets/img/icon.jpg">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
                 </div>
                 <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
                 </div>
                 <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                </div>
-                <div class="col s12 l4">
-                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
+                    <div>
+                        <img class="materialboxed" width="650" src="https://images.pexels.com/photos/784927/pexels-photo-784927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    </div>
                 </div>
             </div>
         </div>
