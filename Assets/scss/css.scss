@@ -31,6 +31,7 @@ body {
         background-color: white;
         border-radius: 10px;
         opacity: 0.9;
+        margin: 10px;
     }
     
 	ul {
@@ -75,6 +76,7 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 50;
+    overflow-y: hidden;
     
     .head_before{
         position: absolute;
@@ -89,14 +91,6 @@ body {
             margin-top: -12px;
             left: 10px;
             font-size: 24px;
-        }
-        
-        .right_obj{
-            position: absolute;
-            top: 50%;
-            margin-top: -12px;
-            right: 10px;
-            color: black;
         }
     }
 
@@ -114,15 +108,20 @@ body {
             left: 10px;
             font-size: 24px;
         }
+    }
+    
+    .header_menu{
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        right: 10px;
         
-        .right_obj{
-            position: absolute;
-            top: 50%;
-            margin-top: -12px;
-            right: 10px;
-            color: black;
+        a i{
+            font-size: 32px;
+            color: black !important;
         }
     }
+    
 }
 
 .compensatore{
@@ -131,7 +130,7 @@ body {
 /********************************************************/
 
 
-
+/*BLOCCO BODY*/
 .container{
     margin-top: 20px;
     
@@ -140,13 +139,17 @@ body {
         margin: 10px;
     }
 }
+/********************************************************/
 
+/*BLOCCO FOOTER*/
 .page-footer{
+    margin-top: 50px;
     color: black !important;
     background-color: white !important;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
     font-size: 15px !important;
 }
+/********************************************************/
 
 /*UTILITIES*/
 .dn{
@@ -158,12 +161,12 @@ body {
     top: 0px;
 }
 
-.op0{
-    opacity: 0;
+.trans-100{
+    transform: translateY(-100%);
 }
 
-.op1{
-    opacity: 1;
+.trans_100{
+    transform: translateY(100%);
 }
 /********************************************************/
 

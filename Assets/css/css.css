@@ -27,7 +27,8 @@ body {
     padding: 15px;
     background-color: white;
     border-radius: 10px;
-    opacity: 0.9; }
+    opacity: 0.9;
+    margin: 10px; }
   .main ul {
     list-style: none;
     padding: 0;
@@ -61,7 +62,8 @@ body {
   background-color: white;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   position: relative;
-  z-index: 50; }
+  z-index: 50;
+  overflow-y: hidden; }
   .header .head_before {
     position: absolute;
     top: 0px;
@@ -74,12 +76,6 @@ body {
       margin-top: -12px;
       left: 10px;
       font-size: 24px; }
-    .header .head_before .right_obj {
-      position: absolute;
-      top: 50%;
-      margin-top: -12px;
-      right: 10px;
-      color: black; }
   .header .head_after {
     position: absolute;
     top: 0px;
@@ -92,29 +88,36 @@ body {
       margin-top: -18px;
       left: 10px;
       font-size: 24px; }
-    .header .head_after .right_obj {
-      position: absolute;
-      top: 50%;
-      margin-top: -12px;
-      right: 10px;
-      color: black; }
+  .header .header_menu {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    right: 10px; }
+    .header .header_menu a i {
+      font-size: 32px;
+      color: black !important; }
 
 .compensatore {
   height: 70px; }
 
 /********************************************************/
+/*BLOCCO BODY*/
 .container {
   margin-top: 20px; }
   .container .materialboxed {
     width: 100%;
     margin: 10px; }
 
+/********************************************************/
+/*BLOCCO FOOTER*/
 .page-footer {
+  margin-top: 50px;
   color: black !important;
   background-color: white !important;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
   font-size: 15px !important; }
 
+/********************************************************/
 /*UTILITIES*/
 .dn {
   display: none; }
@@ -123,11 +126,11 @@ body {
   position: fixed;
   top: 0px; }
 
-.op0 {
-  opacity: 0; }
+.trans-100 {
+  transform: translateY(-100%); }
 
-.op1 {
-  opacity: 1; }
+.trans_100 {
+  transform: translateY(100%); }
 
 /********************************************************/
 

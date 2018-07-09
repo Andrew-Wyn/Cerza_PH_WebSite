@@ -8,13 +8,13 @@ $(document).ready(function(){
         if($(window).scrollTop() > $(".main").position().top + $(".main").height()){
             $(".header").addClass("pos_fix");
             $(".compensatore").removeClass("dn");
-            $(".head_before").addClass("op0");
-            $(".head_after").removeClass("op0");
+            $(".head_before").addClass("trans_100");
+            $(".head_after").removeClass("trans-100");
         } else {
             $(".header").removeClass("pos_fix");
             $(".compensatore").addClass("dn");
-            $(".head_after").addClass("op0");
-            $(".head_before").removeClass("op0");
+            $(".head_after").addClass("trans-100");
+            $(".head_before").removeClass("trans_100");
         }
     });
     
